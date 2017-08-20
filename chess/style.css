@@ -1,0 +1,39 @@
+body {
+    "background-image": assets/img_chess.png;
+    text-align: center;
+}
+
+.wrapper {
+    width: 600px;
+    margin: auto;
+    position: relative;
+}
+
+.img_chess {
+    height: 600px;
+    width: 600px;
+}
+
+.bishop {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+}
+
+.knight {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 0px;
+    top: 200px;
+}
+
+.rook {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 200px;
+    top: 400px;
+}
